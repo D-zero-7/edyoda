@@ -112,10 +112,26 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div></div>
+              <div className="home__module__right">
+                <p id="todaysplan">Today's plan</p>
+                <p id="date">21 MARCH 2022</p>
+                <p id="topin_name">Data Transformation Using Pandas - 3</p>
+                <div className="home__module__right__1">
+                  <p id="feedback">Daily Feedback</p>
+                  <p id="opensat">Opens at 7:30 PM</p>
+                </div>
+                <div className="livesession">
+                  <button className="join">JOIN LIVE SESSION</button>
+                  <p className="begins">BEGINS AT 7:30 PM</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="home__continueLearning__right"> right</div>
+          <div className="home__continueLearning__right">
+            <div className="home__progress">
+              
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -1,12 +1,12 @@
 #home {
-  padding: 2em;
+  padding: 1.8em 4em;
 }
 
 .home__upcommingCertifications {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 2em;
+  padding: 1.8em;
   border: 1px solid #66777f;
   box-shadow: 0.05em 0.05em 0.15em 0.15em #cceeff;
   border-radius: 0.5em;
@@ -124,7 +124,7 @@
 
 .home__module {
   display: flex;
-  padding: 2em;
+  padding: 1.4em;
   border: 1px solid #66777f;
   box-shadow: 0.05em 0.05em 0.15em 0.15em #cceeff;
   border-radius: 0.5em;
@@ -132,7 +132,7 @@
 
 .home__module__left {
   border-right: 0.1em #cceeff solid;
-  padding: 0 2em;
+  padding: 0 1.8em;
 }
 
 .home__module__module {
@@ -196,4 +196,64 @@
   width: 12em;
   background-color: #abe1ff;
   border-radius: 0.5em;
+}
+
+.home__module__right {
+  padding: 1.8em 2em;
+}
+
+#todaysplan {
+  font-size: 1.15em;
+}
+
+#date {
+  font-size: 0.6em;
+  margin-bottom: 2em;
+}
+
+#topin_name {
+  font-size: 1.2em;
+  color: #009bff;
+  margin-bottom: 1.2em;
+}
+
+.home__module__right__1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+#feedback {
+  color: #8d8c8c;
+}
+
+#opensat {
+  color: #009bff;
+}
+
+.livesession {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.join {
+  background-color: #efefef;
+  padding: 1em 2em;
+  border-radius: 2em;
+  border: none;
+}
+
+.begins{
+   padding: 0.2em 2.5em;
+   font-size: 0.8em;
+}
+
+.home__progress{
+    display: flex;
+    padding: 1.4em;
+    border: 1px solid #66777f;
+    box-shadow: 0.05em 0.05em 0.15em 0.15em #cceeff;
+    border-radius: 0.5em;
 }
