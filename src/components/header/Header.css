@@ -1,0 +1,25 @@
+.header {
+  background-color: #fff;
+  padding: 0.8em 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4em;
+  max-width: 2860px;
+}
+
+.header__user {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  height: 4em;
+  width: 12em;
+}
+
+#profile_pic {
+  margin-left: 1em;
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+}

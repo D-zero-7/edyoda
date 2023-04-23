@@ -1,0 +1,26 @@
+#content {
+  width: 100vw;
+  max-width: 2560px;
+}
+
+#content__main_nav {
+  height: 100vh;
+  width: 10vw;
+  background-color: #15294b;
+}
+
+#content__main_nav__list {
+  list-style: none;
+  padding: 0;
+}
+
+.content__main_nav__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1em 0;
+  color: #fff;
+  cursor: pointer;
+}

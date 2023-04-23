@@ -1,0 +1,46 @@
+.course {
+  background-color: #15294b;
+  display: flex;
+  padding: 1.5em 4em;
+  max-width: 2560px;
+}
+
+#course_dropdown {
+  cursor: pointer;
+}
+
+.course p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.4em;
+  padding-left: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.downicon {
+  padding-left: 0.2em;
+}
+
+.dropdownClosed {
+  display: none;
+}
+
+.dropdownOpen {
+  background-color: #15294b;
+  padding: 0em 0em 1em 9.5em;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1em;
+  z-index: 50;
+}
+
+.dropdownOpen ul {
+  padding: 1em 0;
+  display: flex;
+  list-style: none;
+}
+
+.dropdownOpen ul li p {
+  padding-left: 1em;
+}
