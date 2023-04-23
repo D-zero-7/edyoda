@@ -15,8 +15,8 @@ function App() {
       <Header />
       <CourseHeader />
       <div id="content">
-        <Navbar />
         <Router>
+        <Navbar />
           <Routes>
             {/* <Route>
               <Route />
