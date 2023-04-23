@@ -8,32 +8,19 @@ function Quiz() {
   return (
     <div className='Quizmain'>
       <div className='Quizheading__quiz1'>
-        <div id='assignment1'>
-        <h1 className='Quizheading__datatypes'>Assignment-1: Operators | Loops</h1>
+        <h1 className='Quizheading__datatypes'>Quiz-1: Data Types </h1>
         <p id='Quizheadingdatetext'>23rd April 2023, Sunday</p>
-        </div>
-        <div id='assignment11'>
-          <div>
-        <h1 className='Quizheading__datatypes'>3</h1>
-        <p id='Quizheadingdatetext'>problems</p>
-        </div>
-          <div>
-        <h1 className='Quizheading__datatypes'>100</h1>
-        <p id='Quizheadingdatetext'>Total Score</p>
-        </div>
-       </div>
-        
       </div>
-       <h2 id='Quizdetails'>Assignment Details</h2>
+       <h2 id='Quizdetails'>Quiz 1</h2>
       <div className='Quizdetails'>
         <div>
           <h1>10</h1>
           <p>Questions</p>
         </div>
-        {/* <div>
+        <div>
           <h1>-</h1>
           <p>Duration</p>
-        </div> */}
+        </div>
         <div id='scoreend'>
           <h1>25</h1>
           <p>Total Score</p>

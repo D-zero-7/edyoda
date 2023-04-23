@@ -1,5 +1,6 @@
 #home {
   padding: 1.8em 4em;
+  width: 70vw;
 }
 
 .home__upcommingCertifications {
@@ -118,14 +119,14 @@
 }
 
 .home__continueLearning__right {
-  width: 15%;
+  width: 25%;
   margin-bottom: 2em;
 }
 
 .home__module {
   display: flex;
   padding: 1.4em;
-  border: 1px solid #66777f;
+  border: 1px solid #009bff;
   box-shadow: 0.05em 0.05em 0.15em 0.15em #cceeff;
   border-radius: 0.5em;
 }
@@ -251,9 +252,40 @@
 }
 
 .home__progress{
-    display: flex;
-    padding: 1.4em;
+    padding: 2em;
     border: 1px solid #66777f;
     box-shadow: 0.05em 0.05em 0.15em 0.15em #cceeff;
     border-radius: 0.5em;
+    margin-top: 2em;
+}
+
+.home__progress_grade{
+  margin: 1.4em 0;
+  border: 0.1em #009bff solid;
+  border-radius: 0.3em;
+  padding: 1.5em 1.5em 0 1.5em;
+}
+
+.home__progress_grade__grade{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+#overall{
+  color:#929191
+}
+
+#gradebar{
+  height: 0.4em;
+  width: 10em;
+  border-radius: 0.8em;
+  background-color: #DFD1D1;
+}
+
+#viewDetailedProgress{
+    margin-bottom: 1em;
+    color: #009bff;
+    font-weight: 600;
+    font-size: 0.8em;
 }

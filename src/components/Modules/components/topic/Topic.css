@@ -1,0 +1,21 @@
+#topic {
+    padding: 1.8em 3em;
+    width: 70vw;
+}
+
+#topic h1{
+    margin-bottom: 0.4em;
+    font-weight: 400;
+}
+
+.daily_feedback{
+    float: right;
+    margin: 1em 0;
+    color: #009bff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#tabs{
+    margin: 4em 0;
+}

@@ -9,5 +9,6 @@ body {
 
 #content {
   display: flex;
-  width: 100%;
-}
+  width: 100vw;
+  max-width: 2560px;
+background-color:#F2F6FF;}

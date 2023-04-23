@@ -129,7 +129,22 @@ function Home() {
           </div>
           <div className="home__continueLearning__right">
             <div className="home__progress">
-              
+              <p>Progress Overview</p>
+              <div className="home__progress_grade">
+                <div className="home__progress_grade__grade">
+                  <p>0%</p>
+                  <p id="overall">Overall Grade</p>
+                </div>
+                <div id="gradebar"></div>
+              </div>
+              <div className="home__progress_grade">
+                <div className="home__progress_grade__grade">
+                  <p>0%</p>
+                  <p id="overall">Attendance</p>
+                </div>
+                <div id="gradebar"></div>
+              </div>
+              <p id="viewDetailedProgress">VIEW DETAILED PROGRESS</p>
             </div>
           </div>
         </div>

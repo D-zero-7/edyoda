@@ -1,11 +1,8 @@
-#content {
-  width: 100vw;
-  max-width: 2560px;
-}
+
 
 #content__main_nav {
   height: 100vh;
-  width: 10vw;
+  width: 8vw;
   background-color: #15294b;
 }
 
