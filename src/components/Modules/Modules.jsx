@@ -1,9 +1,9 @@
 import React from "react";
-import Topic from "./components/topic/Topic";
+import Quiz from "./components/quiz/Quiz";
 
 function Modules() {
   return <div>
-    <Topic/>
+    <Quiz/>
   </div>;
 }
 
