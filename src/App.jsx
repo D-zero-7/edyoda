@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Modules from "./components/Modules/Modules";
 import Instructors from "./components/Instructors/Instructors";
+import Topic from "./components/Modules/components/topic/Topic";
 
 function App() {
   return (

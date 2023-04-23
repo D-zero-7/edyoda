@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Topic() {
+function Quiz() {
   return (
     <div>
       quiz
@@ -8,4 +8,4 @@ function Topic() {
   )
 }
 
-export default Topic
+export default Quiz
