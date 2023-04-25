@@ -18,6 +18,6 @@ To run this project, you need to have Node.js installed on your machine.
 
 2. To build the app for development run the following command
 
-> npm run dev
+> - npm run dev
 
 3. Open your browser and go to `http://localhost:5173` to see the app.
